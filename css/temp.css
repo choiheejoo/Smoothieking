@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS - temp(헤더 푸터)*/
+
+#wrap_all{
+	position:relative;
+	width:100%;
+	height:auto;
+	margin:0 auto;s
+	/*background-color:#09F;*/
+}
+/*************************** 헤더시작 *****************************/
+#h_shadow{
+	position:relative;
+	width:100%;
+	height:145px;
+	box-shadow:0 2px 4px rgba(0,0,0,0.2);
+	z-index:999;
+}
+header{	
+	position:relative;
+	/************ width:960px; 수정 *************/
+	width:100%; /************** 수정 *************/	
+	height:145px;
+	margin:0 auto;
+	/*background-color:#66F;*/
+}
+#top{ /************** 수정 *************/
+	position:relative; 
+	width:960px; 
+	margin:0 auto;
+}
+#s_menu{ /* 로그인 회원가입 */
+	position:absolute;
+	right:0;
+	top:18px;
+	font-size:12px;
+	font-family:NanumSquareR;
+}
+.sidew{
+	margin-left:16px;
+}	
+#gnb{ /* 네비게이션 */
+	position:absolute;
+	width:100%;
+	top:100px;
+	left:50%;	
+	transform:translateX(-50%);	
+}
+#gnb>ul{
+	/*position:absolute;*/
+	/********* width:100%; 수정 *************/	
+	width:960px; /************** 수정 *************/	
+	height:30px;
+	margin:0 auto;
+/*	outline:1px solid red;*/
+}
+.gnb_m{
+	padding-left:30px;
+	float:left;
+	font:18px ARLRDBD;
+	height:50px;
+/*	outline:1px solid blue;*/
+}
+.gnb_m>a{ 	
+	display:block;
+	height:30px;
+}
+#t_logo{ /* 로고 */
+	width:143px;
+	height:106px;
+	/*margin-left:0;*/
+	margin-top:-80px;
+	background:url(../images/common/logo.png) no-repeat;
+}
+.logoW{
+	margin-left:0;
+	float:left;
+}
+#gnb>ul>li>a{
+	color:#818181;
+	
+}
+.menubox{
+	position:absolute;
+	width:100%;	height:0;
+	left:50%;
+	transform:translateX(-50%);
+	top:40px; /*outline:1px solid red;*/
+	/************** transform:translateX(-50%);  수정 *************/	
+	background-color:#fff;
+	overflow:hidden; 
+/*	box-shadow:2px 3px 3px rgba(0,0,0,0.2); 
+*/	/*display:none;*/
+}
+.sbox{ /************** 수정 *************/
+	position:relative;
+	width:960px; height:225px; 
+	margin:auto; outline:1px solid red;
+}
+.sbox div{
+	position:absolute;
+	top:60px;
+	left:0;	
+	height:225px;
+	float:left;
+	
+}
+dl{
+	position:relative; /************** 수정 *************/
+/*	left:15px;*/ /************** 수정 *************/
+	margin-top:30px;
+	margin-left:70px;
+	float:left;
+}
+dt{	
+	color:#222;
+	font:600 18px NanumSquareR;
+	margin-bottom:20px;
+}
+dd{
+	font: 14px NanumSquareR;
+	color:#818181;
+	margin-bottom:20px;
+}
+.d_menu{
+	margin-left:203px;
+}
+
+/* ****************************헤더 끝******************************* */
+
+
+footer{ /* 푸터 */
+	position:relative;
+	width:960px; height:250px;
+	margin:0 auto;
+}
+#f_logo{/*푸터 로고*/
+	position:absolute;
+	top:48px; left:0;
+	width:143px;
+	height:106px;
+	background:url(../images/common/logo.png) no-repeat;;
+}
+#f_img{ /*푸터 이미지 */
+	position:absolute;
+	top:104px; right:0;
+	width:84px; height:50px;
+	background:url(../images/index/f_img.png) no-repeat;
+}
+#f_menu{ /* 푸터 메뉴 */
+	position:absolute;
+	top:62px;
+	left:50%;
+	margin-left:16px;
+	transform:translateX(-50%);	
+	font:700 14px NanumSquareR;
+}
+#f_menu ul li{
+	float:left;
+	margin-right:32px;
+}
+#f_menu ul li a{	
+	color:#d80c27;
+}
+footer address{
+	position:absolute;
+	left:50%;
+	transform:translateX(-50%);	
+	bottom:80px;
+	font:12px/16px NanumSquareR;
+	text-align:center;
+	color:#222;
+}
+
+
+	

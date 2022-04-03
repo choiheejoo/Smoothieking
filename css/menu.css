@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(common.css);
+#b_img{ /* 상단 이미지 */
+	position:relative;
+	width:100%; height:244px;
+	background:url(../images/index/bottom_bg.jpg) no-repeat center/cover;
+}
+#cont_wrap{
+	position:relative;
+	margin:0 auto;
+	width:960px; height:100%;
+}
+#route{
+	position:relative;
+	margin-top:20px;
+	font-size:12px;
+}
+#t_wrap{	/*타이틀 감싸기*/
+	position:relative;
+	margin:65px auto;
+	width:550px; height:150px;
+}
+#title{	/*스무디/메뉴*/
+	position:absolute;
+	left:50%;	transform:translateX(-50%);
+	-webkit-transform:translateX(-50%); -ms-transform:translateX(-50%); -moz-transform:translateX(-50%);
+	width:220px; height:74px;
+	background:url(../images/menu/title.png) no-repeat;
+}
+#lnb{	/*한끼든듬 비타민충전 kids 버튼*/
+	width:510px;
+	position:absolute;
+	bottom:0; left:50%;
+	transform:translateX(-50%);
+	-webkit-transform:translateX(-50%); -ms-transform:translateX(-50%); -moz-transform:translateX(-50%);
+}
+#lnb>li{
+	width:160px; height:40px;
+	border:1px solid #222;
+	float:left;
+	text-align:center; line-height:38px;
+	font-size:18px;
+	margin-left:5px;
+	cursor:pointer;
+}
+#lnb>li:first-child{background-color:#ff1937; color:#fff;}
+#prod1{
+	width:100%;
+	height:auto;
+}
+#prod2, #prod3{display:none;}
+#cont_wrap .line{
+	border-bottom:1px solid #ddd;	
+	height:350px;	width:960px;
+}
+#cont_wrap .product{
+	width:240px;	height:350px;
+	float:left;
+	overflow:hidden;
+}
+.product>p{	margin-top:50px;}
+.p_name{
+	font:bold 16px NanumSquareR;
+	display:block;
+	text-align:center;
+}
+.p_nameEn{
+	font:14px NanumSquareR;
+	display:block;
+	text-align:center;
+}
+.product img{
+	width:480px;	height:480px;
+	margin-left:-118px;margin-top:-55px;
+}
+.detail{
+	width:960px;	height:650px;
+	display:none;
+}
+#prod_page{
+	width:100px;	height:50px;
+	margin:70px auto;
+	display:none;
+}
+#prod_page>li{
+	width:25px;
+	float:left;
+	text-align:center;
+}
+#prod_page>li>a{#222;}
+#f_bg{
+	position:relative;
+	width:100%; height:50px;
+	background-color:#ddd;
+}

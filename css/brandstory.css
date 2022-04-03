@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(common.css);
+#b_img{ /* 상단 이미지 */
+	position:relative;
+	width:100%; height:244px;
+	background:url(../images/index/bottom_bg.jpg) no-repeat center/cover;
+}
+#cont_wrap{
+	position:relative;
+	margin:0 auto;
+	width:960px; height:100%;
+}
+#route{
+	position:relative;
+	margin-top:20px;
+	font-size:12px;
+}
+#t_wrap{	/*타이틀 감싸기*/
+	position:relative;
+	margin:65px auto;
+	width:100%; height:355px;
+}
+#title{	/*스무디킹스토리/스무디킹*/
+	position:absolute;
+	left:50%;	transform:translateX(-50%);
+	width:233px; height:73px;
+	background:url(../images/brandstory/b_title.png) no-repeat;
+}
+#t_wrap>p{
+	position:absolute;
+	top:130px;	left:50%;	transform:translateX(-50%);
+	font:24px NanumSquareR;
+}
+#t_wrap>#b_logo{
+	position:absolute;
+	top:185px; left:50%;transform:translateX(-50%);
+	width:186px; height:179px;
+	background:url(../images/brandstory/b_logo.png) no-repeat;
+}
+#t_wrap>h2{
+	position:absolute;
+	bottom:0; left:50%;
+	transform:translateX(-50%);
+	width:804px;
+	font:bold 30px NanumSquareR; color:#d80c27;
+}
+#storyline{
+	position:relative; margin-top:96px;
+	width:960px; height:1362px;
+}
+#storyline #b_line{
+	position:absolute;
+	left:50%; 	transform:translateX(-50%);
+	width:302px; height:1362px;
+	background:url(../images/brandstory/b_line.png) no-repeat;
+}
+#storyline #b_01{
+	position:absolute;
+	right:25px; top:54px;
+	width:254px; height:225px;
+	background:url(../images/brandstory/b_01.png) no-repeat;
+}
+#storyline #b_02{
+	position:absolute;
+	left:25px; top:306px;
+	width:201px; height:237px;
+	background:url(../images/brandstory/b_02.png) no-repeat;
+}
+#storyline #b_03{
+	position:absolute;
+	right:25px; bottom:570px;
+	width:237px; height:236px;
+	background:url(../images/brandstory/b_03.png) no-repeat;
+}
+#storyline #b_04{
+	position:absolute;
+	left:0; bottom:360px;
+	width:277px; height:118px;
+	background:url(../images/brandstory/b_04.png) no-repeat;
+}
+#storyline #b_05{
+	position:absolute;
+	right:0; bottom:51px;
+	width:306px; height:216px;
+	background:url(../images/brandstory/b_05.png) no-repeat;
+}
+#storyline>p{
+	position:absolute;
+	text-align:center;
+	font:18px/26px NanumSquareR;
+}
+#storyline #btxt01{
+	top:109px; left:147px;
+	opacity:0;
+}
+#storyline #btxt02{
+	top:374px; right:214px;
+	opacity:0;
+}
+#storyline #btxt03{
+	top:645px; left:127px;
+	opacity:0;
+}
+#storyline #btxt04{
+	bottom:393px; right:151px;
+	opacity:0;
+}
+#storyline #btxt05{
+	bottom:120px; left:75px;
+	opacity:0;
+}
+#logochg{
+	position:relative;
+	margin-top:156px; margin-bottom:125px;
+	width:960px; 	height:382px;
+}
+#logochg>h2{
+	font:600 36px NanumSquareR;
+	margin:0 auto;
+	text-align:center;
+}
+#logochg #logoline{
+	position:absolute;
+	width:910px; height:14px;
+	top:238px;left:50%;	transform:translateX(-50%);
+	background:url(../images/brandstory/logoline.png) no-repeat;
+}
+#logochg #bl01{
+	position:absolute;
+	top:123px; left:4px;
+	width:90px; height:86px;
+	background:url(../images/brandstory/bl01.png) no-repeat;
+}
+#logochg #bl02{
+	position:absolute;
+	bottom:0; left:188px;
+	width:61px; height:101px;
+	background:url(../images/brandstory/bl02.png) no-repeat;
+}
+#logochg #bl03{
+	position:absolute;
+	top:113px; left:354px;
+	width:95px; height:96px;
+	background:url(../images/brandstory/bl03.png) no-repeat;
+}
+#logochg #bl04{
+	position:absolute;
+	bottom:14px; right:332px;
+	width:123px; height:65px;
+	background:url(../images/brandstory/bl04.png) no-repeat;
+}
+#logochg #bl05{
+	position:absolute;
+	top:146px; right:154px;
+	width:119px; height:62px;
+	background:url(../images/brandstory/bl05.png) no-repeat;
+}
+#logochg #bl06{
+	position:absolute;
+	bottom:0; right:6px;
+	width:106px; height:79px;
+	background:url(../images/common/logo.png) no-repeat 0/cover;
+}
+#f_bg{
+	position:relative;
+	width:100%; height:50px;
+	background-color:#ddd;
+}
